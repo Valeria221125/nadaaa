@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(./Imagenes/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-size: 99%;
+    background-color: #192655;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    background: aliceblue;
+    font-family: sans-serif;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: black;
+}
+
+nav .listas {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    margin-right: 30px;
+}
+
+nav .listas a {
+    text-decoration: none;
+}
+
+nav .listas div {
+    padding: 10px 20px;
+}
+
+/*se añade hover para  cuando el usuario interactúa con
+     un elemento con un dispositivo señalador. Poner el color el borde*/
+nav .listas div:hover {
+    cursor: pointer;
+    background: #E1AA74;
+}
+
+h1 {
+    color: #E1AA74;
+    text-transform: uppercase;
+    margin: 3em 2em;
+    background-image: url(./Imagenes/titulo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 30%;
+}
+
+.contenido p {
+    color: white;
+    background-color: #192655;
+    border: #E1AA74 2px solid;
+    width: 70%;
+    height: 48px;
+}
+
+.imagen {
+    background-position: right;
+    filter: drop-shadow(16px 7px 8px #E1AA74);
+    text-align: center;
+}
+
+.Opción a {
+    text-decoration: none;
+}
+
+.bot1 {
+    background-color: #b0d8d8;
+    width: 250px;
+    border: 10px;
+    list-style-type: none;
+    padding: 15px 40px;
+    text-align: center;
+    color: #E1AA74;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 43%;
+}
+
+.bot1:hover {
+    background-color: #E1AA74;
+}
+
+.bot2 {
+    background-color: #b0d8d8;
+    width: 250px;
+    border: 10px;
+    list-style-type: none;
+    padding: 15px 40px;
+    text-align: center;
+    color: #E1AA74;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 43%;
+}
+
+.bot2:hover {
+    background-color: #E1AA74;
+}
+
+.bot3 {
+    background-color: #b0d8d8;
+    width: 250px;
+    border: 10px;
+    list-style-type: none;
+    padding: 15px 40px;
+    text-align: center;
+    color: #E1AA74;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 43%;
+}
+
+.bot3:hover {
+    background-color: #E1AA74;
+}
+
+.bot4 {
+    background-color: #b0d8d8;
+    width: 250px;
+    border: 10px;
+    list-style-type: none;
+    padding: 15px 40px;
+    text-align: center;
+    color: #E1AA74;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 43%;
+}
+
+.bot4:hover {
+    background-color: #E1AA74;
+}
+
+#pie {
+    clear: both;
+    background-color: #F3F0CA;
+    padding: 10px;
+    margin-top: 10%;
+    text-align: center;
+}
